@@ -2,16 +2,101 @@
 
 <html>
     <head>
-
+        <meta charset = "utf-8">
+        <title>home</title> 
+        <!--using viewport to tell how width and content should be displayed inside the device, 
+        content width tells the edge of website to follow edge of device, 
+        initial scale tells to scale the content inside the website so it matches the device-->
+        <meta name = "viewport" content = "width = device-width, initial-scale = 1.0"> 
+        <link rel = "stylesheet" href = "styles.css">
+        <!-- using and copying icons from fontawesome -->
+        <script src = "https://kit.fontawesome.com/49c1127b94.js" crossorigin = "anonymous"></script>
     </head>
 
     <body>
         <header>
+            <nav class = "nav"> <!-- NAV START -->
+                <!-- LOGO -->
+                <label class = "nav-logo">
+                    <a href = "index.html" class = "logo-img"> <!-- user clicks logo > goes to index page -->
+                        <img src = "#" alt = "logo"> <!-- link to img -->
+                    </a>
+                </label>
 
+                <!-- SEARCH -->
+                <div class = "nav-search">
+                    <form action = "">
+                        <input type = "text" placeholder = " Search...">
+                    </form>
+                    <button class = "icon"><i class="fa-solid fa-magnifying-glass"></i></button>
+                </div>
+
+
+                <!-- LINKS -->
+                <ul class = "nav-links">
+                    <li>
+                        <a class = "active" href = "index.html">Home</a>
+                    </li>
+
+                    <li>
+                        <a href = "#">Explore</a>
+                    </li>
+
+                    <li>
+                        <a href = "#">About Us</a>
+                    </li>
+
+                    <li>
+                        <a href = "#">Contact Us</a>
+                    </li>
+                </ul>
+
+                <!-- MENU -->
+                <input type = "checkbox" id = "check">
+
+                <label for = "check" class = "nav-menu">
+                    <i class="fa-solid fa-bars"></i>
+                </label>
+
+            </nav> <!-- NAV END -->
         </header>
 
         <main>
+            <!-- HERO START -->
+             <div class = "hero-container">
+                <img src = "imgs/scott-webb-102825.jpg" alt = "hero-img">
+             </div>
+             <!-- HERO END -->
 
+             <!-- FEATURES START -->
+             <div class = "features-container">
+                <ul>
+                    <!-- OPENING HOURS -->
+                    <li>
+                        <h3>Opening Hours</h3>
+                        <a href = "#">More info <i class="fa-solid fa-arrow-right"></i></a>
+                    </li>
+
+                    <!-- TICKETS/PRICES -->
+                    <li>
+                        <h3>Tickets/Prices</h3>
+                        <a href = "#">More info <i class="fa-solid fa-arrow-right"></i></a>
+                    </li>
+
+                    <!-- SHOP -->
+                    <li>
+                        <h3>Shop</h3>
+                        <a href = "#">Visit <i class="fa-solid fa-arrow-right"></i></a>
+                    </li>
+
+                    <!-- CAFE -->
+                    <li>
+                        <h3>Cafè</h3>
+                        <a href = "#">Visit <i class="fa-solid fa-arrow-right"></i></a>
+                    </li>
+                </ul>
+             </div>
+             <!-- FEATURES END -->
         </main>
 
         <footer>

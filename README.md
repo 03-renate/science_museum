@@ -1,4 +1,4 @@
-# Community Science Museum Website
+# Community Science Museum Website 
 
 This project is a responsive and engaging website for the **Community Science Museum**, 
 designed to attract families with children and primary/middle school students (ages 7-15). 
